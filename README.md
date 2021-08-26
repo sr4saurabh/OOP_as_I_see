@@ -7,3 +7,5 @@ A very easy way to understand oop concepts through real_world examples by me!
 4. Encapsulation.java - a easy way to understand what binding of data and functions mean.
 5. Polymorphism.java - ever heard of strategy design pattern -- yeah how a function behaves differently for different
                        objects. Wont bore you much... read happily :)
+                       
+               #this is just for a revision purpose ...so please have a vision before revision.
