@@ -61,6 +61,6 @@ class checkstatic
 // this variable is automatically added by compiler when a non-static function is called from another non static function without
 // object reference
 // this can also be used for constructor chaining
-// this must be the first statement in a constructor
+// this must be the first statement in a constructor if constructor chaining has to be done else it can be used for initialising at any moment of time.
 
 
