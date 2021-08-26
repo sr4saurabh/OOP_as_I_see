@@ -6,7 +6,7 @@
 //ans - duplicate constructor present error
 
 //only one public class in a file allowed
-package tcssid;
+package saurabh;
 class constr {
 	int a , b;
 	constr()
