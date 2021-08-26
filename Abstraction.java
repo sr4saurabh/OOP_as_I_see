@@ -4,7 +4,7 @@
  * 3 . ""       ""    can extend both other classes and interface while interfaces can only extend other interfaces 
  * 
  */
-package tcssid;
+package saurabh;
 
 abstract class Bank{
 	abstract int rateofinterest();
