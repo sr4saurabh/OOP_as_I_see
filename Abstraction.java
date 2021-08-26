@@ -1,4 +1,20 @@
-/** Difference b/w abstract class and interface 
+/** 
+Abstraction - (the bookish language) - showing only the essential details and hiding the complexities of a system is
+called abstraction.....
+
+Wait ...wait .. does not it simply means I give user something that he knows how to handle easily and let internal mechanism
+do all the complex stuff..yeah thats abstraction..
+
+Q - why do we need abstraction ?
+A - A person riding a car never knows the internal mechanism of car , he knows only steering wheel , brake , clutch etc..
+Similarly a person using the application designed using this concept will always be at ease that he is using something that
+he can handle very easy.
+
+Q- How we do abstraction in JAVA??
+A - through abstract classes or by interfaces.
+
+
+Difference b/w abstract class and interface 
  * 1. abstract class can have non-abstract methods , interface cant
  * 2. abstract class does  not provide mechanism for multiple inheritance
  * 3 . ""       ""    can extend both other classes and interface while interfaces can only extend other interfaces 
