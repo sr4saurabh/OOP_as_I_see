@@ -1,3 +1,8 @@
+/* Encapsulation - capsule something but why??
+ binding of data and functions to keep them safe from unauthorized access..yeah the copied answer but but... who is binding all this ??
+ Object has both functions and properties, those properties and functions are bound to an object and only given access can utilise them
+ This is simply encapsulation as i feel.
+*/
 package saurabh;
 import java.util.*;
 public class encapsulation {
