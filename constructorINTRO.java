@@ -1,9 +1,21 @@
-// what happens when constructor is present but of different parameter?
+/*
 
-//ans- compilation error constructor type undefined
+Constructor - as the name says to construct and initialise something...
+Constructors are the methods that have the same name as that of class but they dont have the return type.
 
-// what happens when same type constructors are present 
-//ans - duplicate constructor present error
+Why are they needed ?
+A - Suppose on initialising the objects you want to set some default properties, here constructors come into
+the big picture.
+
+Animal obj = new Animal(); <---- this part makes a new object and constructor is invoked automatically.
+Even if you dont make a default constructor, compiler makes it in the background.
+
+Q - what happens when constructor is present but of different parameter?
+ans- compilation error constructor type undefined
+
+Q - what happens when same type constructors are present 
+ans - duplicate constructor present error
+*/
 
 //only one public class in a file allowed
 package saurabh;
