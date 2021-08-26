@@ -56,6 +56,7 @@ class checkstatic
 		System.out.println(this.c);
 	}
 }
+
 //--------------------------------------------------------------------------
 // this variable is automatically added by compiler when a non-static function is called from another non static function without
 // object reference
