@@ -1,11 +1,27 @@
+/*
+Polymorphism - (first the usual bookish way...) - poly means many and morph means forms that means something that has
+many forms... 
+
+Simply in my understanding it means that an object can change its functions. 
+Now what does that means?
+That means an object say bird can fly at speed of 30km/h ... but some event happens and that bird now is flying at
+50km/h ...that is a changed function...
+
+Q-	wait what has many forms in programming domain?
+A - 	An object has many forms in programming domain , for eg . suppose we are designing a game where type of animal
+	spawned depends on some parameter so what we can do is we can change the type at runtime using this concept.
+
+*/
+
+
 package saurabh;
+/*
+ compile time polymorphism - changing parameter type , changing paremeter numbers
+ objects are upgraded - int into double float and long unless theres an ambiguity
 
-// compile time polymorphism - changing parameter type , changing paremeter numbers
-// objects are upgraded - int into double float and long unless theres an ambiguity
-
-//	Q- can static and non static both functions be overloaded?
-// Yes both can be overloaded , no problem
-
+Q- can static and non static both functions be overloaded?
+ Yes both can be overloaded , no problem
+*/
 class CompileTime{
 	
 	void exec(int a , int b)
@@ -19,11 +35,11 @@ class CompileTime{
 	
 }
 
-// runtime is done in inheritance
-// super keyword is used  to - unhide the name of parent class variable , invoke parent class function/constructor
-// compiler automatically adds super() for parent class as first line in terms of inheritance
+ //runtime is done in inheritance
+ //super keyword is used  to - unhide the name of parent class variable , invoke parent class function/constructor
+ //compiler automatically adds super() for parent class as first line in terms of inheritance
 
-/**public class polymorphism {
+public class polymorphism {
 	static void exec(int a , int b)
 	{
 		System.out.println("exec 3");
@@ -44,7 +60,8 @@ class CompileTime{
 		exec(a,c);
 	}
 
-} comment out to run upper classes - -- - --- **/ 
+} 
+//comment out to run upper classes - -- - --- **/ 
 
 //final keyword - 1. any variable which is data member becomes final/constant
 // any function that is final can be inherited but cant be overridden - compile time error
