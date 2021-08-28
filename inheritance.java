@@ -1,12 +1,31 @@
 package saurabh;
+/*
+Inheritance - the property by which one class object occupies all the properties of other class.
+The class getting inherited is called base class/parent class . The class doing inheritance is called
+the derived/child class.
+
+Property - basicallly by using concept of inheritance one object can now access all the functions and variables(property)
+of the other object even though both have their own classes.
 
 
-//ques1. is it necessary to provide a constructor in base class for the constructor in parent class?
-//ans - yes its absolutely necessary since on object creation an instance of parent is created first and then for child class
-// first constructor of oldest parent is invoked in constructor chaining with super keyword.
+ques. is it necessary to provide a constructor in base class for the constructor in parent class?
+ans - yes its absolutely necessary since on object creation an instance of parent is created first and then for child class
+ first constructor of oldest parent is invoked in constructor chaining with super keyword.
 
-//single multilevel heirarichal 
-// multiple inheritance cant be achieved with classes.can be achieved with interfaces.
+single multilevel heirarichal 
+ multiple inheritance cant be achieved with classes.can be achieved with interfaces.
+
+Single - A<-B
+Multilevel - A-<----B-<-----C
+Heiarichal - A<---B , A<----C
+
+Multiple - A<---B C<----B 
+
+You cant use extend for class more than once but can use interface more than once using implement method.
+
+Learn about the diamond problem(in c++)
+
+*/
 class Account
 {
 	long account_no;
