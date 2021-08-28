@@ -9,9 +9,9 @@ of the other object even though both have their own classes.
 
 
 ques. is it necessary to provide a constructor in base class for the constructor in parent class?
-ans - yes its absolutely necessary since on object creation an instance of parent is created first and then for child class
- first constructor of oldest parent is invoked in constructor chaining with super keyword.
+ans - No, it's fine to have a parent class without the default constructor as long as its children don't invoke super()
 
+Types in java - 
 single multilevel heirarichal 
  multiple inheritance cant be achieved with classes.can be achieved with interfaces.
 
